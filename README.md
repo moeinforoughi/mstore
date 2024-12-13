@@ -1,6 +1,7 @@
-# mstore
+# Simple Persian OnlineShop in Flutter
 
-A new Flutter project.
+I just made this in way of learning flutter basics //
+published as a memory
 
 ## Getting Started
 
@@ -14,3 +15,7 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+## Photos
+![Capture](https://github.com/user-attachments/assets/b5d3fb6d-1475-459e-a717-3e296925296e)
+![Capture1](https://github.com/user-attachments/assets/29f65a08-8456-4ed3-8021-7e24ff916f01)
