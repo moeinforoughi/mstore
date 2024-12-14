@@ -2,6 +2,12 @@
 
 I just made this in way of learning flutter basics //
 published as a memory
+it contain
+Home Page ( Product Sorted By Categories)
+Orders Page ( Orders Sorted By Status )
+Profile Page ( Showing user information)
+Loading Page ( a SPalsh Page You Can Use Evrywhere)
+Login Page ( Check The UserName And PassWord Of User )
 
 ## Getting Started
 
