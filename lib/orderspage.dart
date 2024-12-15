@@ -52,7 +52,8 @@ class _Orderspage extends State<Orderspage> {
                     final product = Product.getProductById(order.productId);
                     order.calculatefinalprice();
                     return Card(
-                      color: const Color(0xFF9C528B),
+                      margin: const EdgeInsets.all(7),
+                      color: Colors.white,
                       elevation: 5,
                       child: Directionality(
                         textDirection: TextDirection.rtl,
@@ -254,7 +255,8 @@ class _Orderspage extends State<Orderspage> {
                     final product = Product.getProductById(order.productId);
                     order.calculatefinalprice();
                     return Card(
-                      color: const Color(0xFF9C528B),
+                      margin: const EdgeInsets.all(7),
+                      color: Colors.white,
                       elevation: 5,
                       child: Directionality(
                         textDirection: TextDirection.rtl,
@@ -456,7 +458,8 @@ class _Orderspage extends State<Orderspage> {
                     final product = Product.getProductById(order.productId);
                     order.calculatefinalprice();
                     return Card(
-                      color: const Color(0xFF9C528B),
+                      margin: const EdgeInsets.all(7),
+                      color: Colors.white,
                       elevation: 5,
                       child: Directionality(
                         textDirection: TextDirection.rtl,

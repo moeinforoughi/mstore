@@ -54,11 +54,15 @@ class User {
   final String name;
   final String email;
   final String imageurl;
+  final String username;
+  final String password;
   User({
     required this.id,
     required this.name,
     required this.email,
     required this.imageurl,
+    required this.username,
+    required this.password,
   });
   static User getUserById(int id) {
     return users.firstWhere(
@@ -211,7 +215,9 @@ final List<User> users = [
       id: 1,
       name: 'معین فروغی',
       email: 'moeinfrq@gmail.com',
-      imageurl: 'assets/Users/user1.png'),
+      imageurl: 'assets/Users/user1.png',
+      username: 'moein',
+      password: '123'),
 ];
 final List<Order> orders = [
   Order(

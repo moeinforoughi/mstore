@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:mstore/loadingpage.dart';
+
 import 'data.dart';
 
 void main() {
@@ -68,6 +70,32 @@ class _Profilepagestate extends State<Profilepage> {
                     fontFamily: 'Shabnam',
                   ),
                 ),
+                const SizedBox(
+                  height: 20,
+                ),
+                ElevatedButton.icon(
+                  onPressed: () {
+                    Navigator.pushReplacement(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => const LoadingPage()));
+                  },
+                  label: const Text(
+                    'خروج از حساب کاربری',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 16,
+                      fontFamily: 'Shabnam',
+                    ),
+                  ),
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.red,
+                    minimumSize: const Size(200, 55),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(12),
+                    ),
+                  ),
+                )
               ],
             ),
           ),

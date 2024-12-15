@@ -93,7 +93,7 @@ class _Homepage extends State<Homepage> {
                   itemBuilder: (context, index) {
                     final product = filteredProducts2[index];
                     return Card(
-                      color: const Color(0xFF9C528B),
+                      color: Colors.white,
                       elevation: 5,
                       child: Column(
                         children: [
@@ -248,7 +248,7 @@ class _Homepage extends State<Homepage> {
                   itemBuilder: (context, index) {
                     final product = filteredProducts1[index];
                     return Card(
-                      color: const Color(0xFF9C528B),
+                      color: Colors.white,
                       elevation: 5,
                       child: Column(
                         children: [

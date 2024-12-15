@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mstore/loadingpage.dart';
 import 'package:stylish_bottom_bar/stylish_bottom_bar.dart';
 import 'aboutpage.dart';
 import 'homepage.dart';
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(home: PageHome());
+    return const MaterialApp(home: LoadingPage());
   }
 }
 
